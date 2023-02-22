@@ -1,12 +1,14 @@
+
 <h2> Este proyecto te permite tener la casa segura, utilizando una raspberry pi y un receptor de radiofrequencia de 433 Mhz. Adicionalmente puedes conectar un ESP32 en el telefonillo para abrir la puerta de la calle. </h2>
-![alt text](http://url/to/img.png)
+  
+<img src="./esquema_general_proyecto.png" />
 
-
-<h1> De que va este proyecto </h1>
-
+<h1> Como funciona </h1>
+  
 1. Instala un detector de puerta abierta en cada puerta o zona que quieras asegurar  
 2. Cuando se abre una puerta, el sensor envia una señal  
 3. La raspberry recibe la señal y el BOT  te envia un mensaje en Telegram para avisarte  
+4. Puedes abrir la puerta de casa enviando un mensaje desde Telegram
   
 <h2> Que funciones tiene </h2>  
   
